@@ -1,13 +1,13 @@
 import { test } from "node:test";
 
-test("test1", (t) => {
+test("a1", (t) => {
   console.log(t.name);
 });
 
-test("test2", (t) => {
+test("a2", (t) => {
   console.log(t.name);
 });
 
-test("test3", (t) => {
+test("b1", (t) => {
   console.log(t.name);
 });
