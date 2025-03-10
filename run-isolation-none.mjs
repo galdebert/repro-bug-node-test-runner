@@ -4,8 +4,8 @@ import { spec } from "node:test/reporters";
 test
   .run({
     globPatterns: ["mytest.test.mjs"],
-    testNamePatterns: ["test1"],
-    testSkipPatterns: ["test2"],
+    testNamePatterns: ["a"],
+    testSkipPatterns: ["a2"],
     isolation: "none",
   })
   .compose(spec)
